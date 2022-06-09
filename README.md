@@ -18,6 +18,12 @@ cmake .                                # Compiles
 ./cmake-build-debug/SK0Sv2             # Runs 
 ```
 
+## Dataset
+The file `data.csv` contains a sample set of data.
+
+In order to use your own dataset replace file `data.csv` with your data.
+
+The data format is compatible with the data format on `USOS`.
 
 ## Architecture
 Project is written in C++. Uses GTK for the GUI and CMake as the build system.
