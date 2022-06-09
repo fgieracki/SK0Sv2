@@ -110,11 +110,11 @@ void GUI::updater() {
                                        email_,
                                        index_);
 
-    if(!policy_note){
-        policy_note = gtk_label_new("Dane wygenerowane automatycznie, wszelkie zbieżności są przypadkowe!");
-        gtk_fixed_put(GTK_FIXED(container), policy_note, 550, 700);
-        gtk_widget_set_size_request(policy_note, 500, 50);
-    }
+//     if(!policy_note){
+//         policy_note = gtk_label_new("Dane wygenerowane automatycznie, wszelkie zbieżności są przypadkowe!");
+//         gtk_fixed_put(GTK_FIXED(container), policy_note, 550, 700);
+//         gtk_widget_set_size_request(policy_note, 500, 50);
+//     }
 
     if(sw)
         gtk_container_remove(GTK_CONTAINER(container), sw);
